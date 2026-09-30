@@ -1,4 +1,4 @@
-FROM amazon/aws-cli:latest@sha256:fdd8d1fcbea9c371678dee5a40df8b178c7a781b4586605756ee28114c97ead6 AS aws
+FROM amazon/aws-cli:latest@sha256:82905aa8fdab6e2403b40dceec12dc33aea2535a4c2a6f13d596d98501951105 AS aws
 FROM bitnami/kubectl:latest@sha256:ab90e1058e5a658cc94b4e7eb6d48e5758cfd6d77b5dd1869513aec3a3054673 AS kube
 
 FROM aws
